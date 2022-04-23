@@ -3,18 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.10.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "firebase": "^7.24.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
+    "react-axios": "^2.0.3",
+    "react-currency-format": "^1.0.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-moment": "^1.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "xml-js": "^1.6.11"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sitemap": "node sitemap-update.js",
+    "generate": "node sitemap-generator.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "globby": "^11.0.3"
   }
 }
