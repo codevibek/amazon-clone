@@ -56,23 +56,6 @@ function Header() {
           </Link>
         </div>
       </nav>
-      <div className="sub__header">
-        <Link to="/orders" className="header__link">
-          <div className="subheader__option">
-            <span className="subHeader__text">Track Order</span>
-          </div>
-        </Link>
-        <Link to="/orders" className="header__link">
-          <div className="subheader__option">
-            <span className="subHeader__text">Sell on Reseller</span>
-          </div>
-        </Link>
-        <Link to="/orders" className="header__link">
-          <div className="subheader__option">
-            <span className="subHeader__text">Customer Care</span>
-          </div>
-        </Link>
-      </div>
     </>
   );
 }
